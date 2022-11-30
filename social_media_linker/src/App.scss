@@ -1,0 +1,15 @@
+.App{
+    width: min(30rem , 100%);
+    border: 1px solid red;
+    position:absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    &::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(155, 155,155, 0.5);
+    }
+}
